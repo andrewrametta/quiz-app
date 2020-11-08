@@ -1,0 +1,140 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+/* Mobile version */
+/* background */
+body {
+  background-color: #EBEFEF;
+}
+/* header */
+header {
+  background-color: #E0C745;
+  color: #EB0021;
+  display: block;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 50%;
+}
+/* header h1 */
+header h1 {
+  text-align: center;
+  font-size: 34px;
+
+}
+/* all images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+/* start screen*/
+.start {
+  color: #2357F5;
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+/* start button */
+#start {
+  background-color: #BE58F5;
+  border-radius: 12px;
+  color: #EBEFEF;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+/* all ps */
+p {
+  color: #BE58F5;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* questions */
+h2 {
+  color: #2357F5;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* answers */
+li {
+  color: #2357F5;
+  margin-left: 15%;
+  list-style: none;
+}
+/* submit button */
+#submit {
+  background-color: #BE58F5;
+  border-radius: 12px;
+  color: #EBEFEF;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+/* next button */
+#next {
+  background-color: #BE58F5;
+  border-radius: 12px;
+  color: #EBEFEF;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+/* restart quiz button */
+#restart {
+  background-color: #BE58F5;
+  border-radius: 12px;
+  color: #EBEFEF;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+/* desktop version */
+@media all and (min-width: 800px) {
+  header {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  header h1 {
+    font-size: 80px;
+  }
+  p {
+    font-size: 24px;
+  }
+  img {
+    width: 45%;
+  }
+  li {
+    font-size: 24px;
+    margin-left: 25%;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  section.start h3 {
+    font-size: 24px;
+  }
+}
